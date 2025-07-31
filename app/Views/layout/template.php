@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
+    <link rel="stylesheet" href="<?= base_url('css/bootstrap-zephyr.min.css') ?>">
 
     <!-- My Css -->
     <link rel="stylesheet" href="<?= base_url('css/style.css') ?>">
