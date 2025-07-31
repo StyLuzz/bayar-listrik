@@ -6,6 +6,9 @@
 /* styling hero section */
 .hero {
   background-image: url(../img/tower.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
