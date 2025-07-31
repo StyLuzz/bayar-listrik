@@ -2,10 +2,10 @@
 <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <!-- Brand/logo and website name -->
-        <a class="navbar-brand" href="/">
-            <img src="https://info-ambon.com/wp-content/uploads/2019/07/LOGO-PLN.png" alt="PLN Logo" draggable="false" height="30" />
+        <a class="navbar-brand" href="<?= base_url() ?>">
+            <img src="<?= base_url('img/Logo_PLN.png') ?>" alt="PLN Logo" style="height: 40px;">
         </a>
-        WEBSITE BAYAR LISTRIK ONLINE
+        <span style="font-weight: bold;">WEBSITE BAYAR LISTRIK ONLINE</span>
 
         <!-- Toggler button for responsive navbar -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
